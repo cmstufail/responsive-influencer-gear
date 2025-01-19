@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.manrope-font {
+  font-family: "Manrope", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .inter-font {
   font-family: "Inter", serif;
@@ -8,7 +15,7 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   background: rgb(248, 247, 247);
@@ -61,77 +68,18 @@ body {
   font-style: normal;
 }
 
-.poppins-black {
-  font-family: "Poppins", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", serif;
-  font-weight: 900;
-  font-style: italic;
-}
 /* shared styles */
 
-.primary-color{
-  color: #3A3A3A;
+.primary-color {
+  color: #3a3a3a;
 }
 
-.secondary-color{
-  color: #18191F;
+.secondary-color {
+  color: #18191f;
 }
 
-.gray{
-  color: #5E6366;
+.gray {
+  color: #5e6366;
 }
 
 .light-gray {
@@ -139,7 +87,7 @@ body {
 }
 
 .btn-primary {
-  background: #E02C6D;
+  background: #e02c6d;
   padding: 10px 24px;
   border-radius: 41px;
   border: none;
@@ -155,13 +103,13 @@ body {
   border-radius: 41px;
   border: none;
   font-size: 1rem;
-  color: #E02C6D;
+  color: #e02c6d;
 }
 
-.section-title, .card-title {
+.section-title,
+.card-title {
   font-size: 1.75rem;
 }
-
 
 header {
   margin: 90px 120px;
@@ -175,7 +123,7 @@ main section {
 
 /* navbar releated styles */
 .navbar {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -191,7 +139,7 @@ main section {
 
 .navbar ul li a {
   text-decoration: none;
-  margin-right: 34px;
+  margin-right: 30px;
   font-size: 1rem;
 }
 
@@ -218,7 +166,7 @@ main section {
 
 .banner .image-box {
   max-width: 440px;
-  background: url('../images/Circle\ design.svg');
+  background: url("../images/Circle\ design.svg");
   padding-top: 20px;
 }
 
@@ -231,9 +179,9 @@ main section {
 .sponsors-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   /* align-items: center; */
 }
-
 
 /* popular section related styles */
 .popular-section {
@@ -259,7 +207,10 @@ main section {
   background: white !important;
 }
 
-.popular-card h4, h5, h6, p {
+.popular-card h4,
+h5,
+h6,
+p {
   margin: 5px 0px;
 }
 
@@ -270,12 +221,12 @@ main section {
 
 .popular-card .card-pricing {
   font-size: 1.4rem;
-  
+
   padding-bottom: 2px;
 }
 
 .ratings-color {
-  color: #FB8200;
+  color: #fb8200;
   font-size: 0.6rem;
 }
 
@@ -291,7 +242,7 @@ main section {
 
 .forward-text {
   text-align: end;
-  color: #E02C6D;
+  color: #e02c6d;
   font-size: 1.25rem;
   text-shadow: 0 0 1px rgb(138, 136, 136);
   padding-top: 50px;
@@ -299,9 +250,8 @@ main section {
 
 /* featured products related styles */
 .featured-products-section {
-  max-width: 1150px;
+  /* max-width: 1150px; */
   margin: 100px auto;
-  
 }
 
 .featured-container {
@@ -310,40 +260,86 @@ main section {
   align-items: center;
 }
 
-/* .img-box {
-  max-width: 404px;
-}
-
-.img-box img {
-  width: 100%;
-} */
-
-
 .featured-content .section-title {
   font-size: 2.37rem;
 }
 
 .featured-content .section-info {
   font-size: 1rem;
-  color: #6C6C6C;
+  color: #6c6c6c;
 }
 
-.featured-container .btn-primary{
+.featured-container .btn-primary {
   border-radius: 0;
   margin-top: 16px;
 }
 
 .featured-content h3 {
   margin-bottom: 16px;
-  color: #0A0826;
+  color: #0a0826;
 }
- 
 
+/* footer related styles */
+footer {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.footer-title {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.footer-description {
+  color: #d9dbe1;
+  font-size: 0.87rem;
+}
+
+.footer-description span {
+  display: block;
+  margin-top: 5px;
+}
+
+footer .social-icon {
+  font-size: 17px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+footer .social-icon i {
+  margin-right: 10px;
+}
+
+/* responsive for smal device */
 @media screen and (max-width: 576px) {
+  header {
+    margin: 0 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .banner,
+  .featured-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .featured-container .section-title {
+    font-size: 1.8rem;
+  }
+
+  .sponsors-container {
+    gap: 10px;
+  }
   .popular-section .popular-cards-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-
+  .popular-section {
+    margin: 0 20px;
+  }
 }
-
